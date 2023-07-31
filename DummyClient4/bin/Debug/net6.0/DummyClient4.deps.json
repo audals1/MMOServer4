@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DummyClient4/1.0.0": {
+        "dependencies": {
+          "ServerCore4": "1.0.0"
+        },
+        "runtime": {
+          "DummyClient4.dll": {}
+        }
+      },
+      "ServerCore4/1.0.0": {
+        "runtime": {
+          "ServerCore4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DummyClient4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServerCore4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

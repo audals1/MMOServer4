@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\MMOServer4\ServerCore4\bin\Debug\net6.0\ServerCore4.exe
+C:\Users\user\source\repos\MMOServer4\ServerCore4\bin\Debug\net6.0\ServerCore4.deps.json
+C:\Users\user\source\repos\MMOServer4\ServerCore4\bin\Debug\net6.0\ServerCore4.runtimeconfig.json
+C:\Users\user\source\repos\MMOServer4\ServerCore4\bin\Debug\net6.0\ServerCore4.dll
+C:\Users\user\source\repos\MMOServer4\ServerCore4\bin\Debug\net6.0\ServerCore4.pdb
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.AssemblyInfo.cs
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.dll
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\refint\ServerCore4.dll
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.pdb
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ServerCore4.genruntimeconfig.cache
+C:\Users\user\source\repos\MMOServer4\ServerCore4\obj\Debug\net6.0\ref\ServerCore4.dll

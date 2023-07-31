@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vnE5f3nKFrvhGTbKbmZIlIq4ndMw13i/UJY5uNqL2RHslbdTdZSUowHAVXfre+dXMRNQN9MzxU+SUIFbwPg2UQ==",
+  "dgSpecHash": "kgZjTnk/Bw0UqCtnxzU6kgtasCZwhfMXSo4N1daKdZB9UgtzWn8dftZSDpuHzIJWhPjsObjr/sBDxoRmQdgS4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\Server4\\ServerCore4\\ServerCore4.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\MMOServer4\\ServerCore4\\ServerCore4.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

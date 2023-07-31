@@ -44,23 +44,25 @@ namespace DummyClient4
             //서버로 보낸다
             //for (int i = 0; i < 5; i++)
             {
-                ArraySegment<byte> openSegment = SendBufferHelper.Open(4096);
+                ArraySegment<byte> s = SendBufferHelper.Open(4096);
+                bool success = true;
+                ushort count = 0;
 
-                //BitConverter.TryWriteBytes();
+
+                success &= BitConverter.TryWriteBytes(new Span<byte>(s.Array, s.Offset, s.Count), packet.size);
 
                 byte[] size = BitConverter.GetBytes(packet.size); // 데이터를 바이트 배열로 바꿔주는 함수
                 byte[] packetId = BitConverter.GetBytes(packet.packetId);
                 byte[] playerId = BitConverter.GetBytes(packet.playerId);
 
 
-                ushort count = 0;
                 //추출한 데이터를 sendBuff에 넣어줌 추출소스배열->목적지로, 시작위치와 크기도 설정
-                Array.Copy(size, 0, openSegment.Array, openSegment.Offset + count, 2);
+                Array.Copy(size, 0, s.Array, s.Offset + count, 2);
                 count += 2;
                 //먼저 보내놓은게 있으니 먼저번 렝스 다음부터가 시작 오프셋
-                Array.Copy(packetId, 0, openSegment.Array, openSegment.Offset + count, 2);
+                Array.Copy(packetId, 0, s.Array, s.Offset + count, 2);
                 count += 2;
-                Array.Copy(playerId, 0, openSegment.Array, openSegment.Offset + count, 8);
+                Array.Copy(playerId, 0, s.Array, s.Offset + count, 8);
                 count += 8;
                 ArraySegment<byte> sendBuff = SendBufferHelper.Close(count);
 
