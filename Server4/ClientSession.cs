@@ -80,6 +80,8 @@ namespace Server4
                 default:
                     break;
             }
+
+            Console.WriteLine($"RecvPacketId : {id} , SIze : {size}");
         }
 
         public override void OnDisconnected(EndPoint endPoint)
