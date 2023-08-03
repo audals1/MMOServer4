@@ -38,6 +38,7 @@ namespace DummyClient4
             count += 2;
 
             this.playerId = BitConverter.ToInt64(s.Array, s.Offset + count);
+            BitConverter.ToUInt64(new ReadOnlySpan<byte>(s.Array, s.Offset + count, s.Count - count));
             count += 8;
         }
 
